@@ -72,7 +72,7 @@
 }
 
 // ============================================================================
-// Desktop
+// Larger Phones (taller)
 @media screen and (min-height: 700px) {
 
   .landing-page-a {
@@ -145,4 +145,21 @@
     }  
   }
   
+  .social-icons {
+    position: relative;
+    top: auto;
+    right: auto;
+    padding: 12px 0 0;
+
+    > a {
+      > img {
+        width: 32px;
+      }
+
+      &:last-child {
+        margin-left: 16px;
+      }
+    }
+  }
+
 }

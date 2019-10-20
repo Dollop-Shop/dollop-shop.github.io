@@ -2,15 +2,19 @@
   "name": "dollop-web",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://dollop.store/",
   "dependencies": {
     "craco": "0.0.3",
     "craco-less": "1.14.4",
+    "gh-pages": "^2.1.1",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-mailchimp-subscribe": "^2.1.0",
     "react-scripts": "3.2.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
