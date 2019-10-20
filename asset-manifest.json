@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/dollop-web/static/css/main.c48c797d.chunk.css",
-    "main.js": "/dollop-web/static/js/main.46ee796a.chunk.js",
-    "main.js.map": "/dollop-web/static/js/main.46ee796a.chunk.js.map",
-    "runtime-main.js": "/dollop-web/static/js/runtime-main.e442b12c.js",
-    "runtime-main.js.map": "/dollop-web/static/js/runtime-main.e442b12c.js.map",
-    "static/js/2.3156878a.chunk.js": "/dollop-web/static/js/2.3156878a.chunk.js",
-    "static/js/2.3156878a.chunk.js.map": "/dollop-web/static/js/2.3156878a.chunk.js.map",
-    "index.html": "/dollop-web/index.html",
-    "precache-manifest.61546c3dcdaa2cb04f56afaaa59c2fa3.js": "/dollop-web/precache-manifest.61546c3dcdaa2cb04f56afaaa59c2fa3.js",
-    "service-worker.js": "/dollop-web/service-worker.js",
-    "static/css/main.c48c797d.chunk.css.map": "/dollop-web/static/css/main.c48c797d.chunk.css.map",
-    "static/media/dollop-bottle.png": "/dollop-web/static/media/dollop-bottle.27dc587a.png",
-    "static/media/instagram.svg": "/dollop-web/static/media/instagram.96fdc43e.svg",
-    "static/media/youtube.svg": "/dollop-web/static/media/youtube.b3b64b1a.svg"
+    "main.css": "/static/css/main.04bc012a.chunk.css",
+    "main.js": "/static/js/main.46ee796a.chunk.js",
+    "main.js.map": "/static/js/main.46ee796a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b41cc89f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b41cc89f.js.map",
+    "static/js/2.47346638.chunk.js": "/static/js/2.47346638.chunk.js",
+    "static/js/2.47346638.chunk.js.map": "/static/js/2.47346638.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.c7f1c9fb420e01d02e87400b19d63b8c.js": "/precache-manifest.c7f1c9fb420e01d02e87400b19d63b8c.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.04bc012a.chunk.css.map": "/static/css/main.04bc012a.chunk.css.map",
+    "static/media/dollop-bottle.png": "/static/media/dollop-bottle.27dc587a.png",
+    "static/media/instagram.svg": "/static/media/instagram.96fdc43e.svg",
+    "static/media/youtube.svg": "/static/media/youtube.b3b64b1a.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.e442b12c.js",
-    "static/js/2.3156878a.chunk.js",
-    "static/css/main.c48c797d.chunk.css",
+    "static/js/runtime-main.b41cc89f.js",
+    "static/js/2.47346638.chunk.js",
+    "static/css/main.04bc012a.chunk.css",
     "static/js/main.46ee796a.chunk.js"
   ]
 }
