@@ -1,10 +1,17 @@
-import React, { useState } from 'react';
+import React from 'react';
+import MailchimpSubscribe from "react-mailchimp-subscribe"
+
 import dollopBottle from './dollop-bottle.png';
 import './LandingPage.less';
+import instagramImg from './instagram.svg';
+import youtubeImg from './youtube.svg';
+const INSTAGRAM = 'https://instagram.com/dollopskincare';
+const YOUTUBE = 'https://www.youtube.com/channel/UC63_4iT5ygk8JnyAyM8OoHw';
+
+
+const MAILCHIMP_URL = "//store.us20.list-manage.com/subscribe/post?u=d2ccb41196286a704a6188eeb&amp;id=f7cde64b12";
 
 function LandingPage() {
-  const [email, setEmail] = useState();
-
   return (
     <div className="landing-page">
       <div className="landing-page-a">
@@ -17,14 +24,23 @@ function LandingPage() {
           Dollop is a new skincare company launching soon.
           Be the first to know when our products become available.
         </p>
-        <form action="https://store.us20.list-manage.com/subscribe/post?u=d2ccb41196286a704a6188eeb&amp;id=f7cde64b12" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" noValidate>
-          <input type="email" value={email} onChange={e => setEmail(e.target.value)} name="EMAIL" id="mce-EMAIL" placeholder="Email Address" />
-          <input type="hidden" name="b_d2ccb41196286a704a6188eeb_f7cde64b12" tabIndex="-1" value="" />
-          <input type="submit" value="Get notified" name="subscribe" id="mc-embedded-subscribe" className="button" />
-        </form>
+        <div className="mailchimp">
+          <MailchimpSubscribe url={MAILCHIMP_URL} />
+        </div>
+        <div className="social-icons">
+          <a href={INSTAGRAM}>
+            <img src={instagramImg} alt="Instagram" />
+          </a>
+          <a href={YOUTUBE}>
+            <img src={youtubeImg} alt="Twitter" />
+          </a>
+        </div>
       </div>
     </div>
   );
 }
 
 export default LandingPage;
+
+
+
