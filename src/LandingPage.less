@@ -1,0 +1,125 @@
+// ============================================================================
+// MOBILE FIRST
+.landing-page {
+  text-align: center;
+  
+  padding: 5vh 8%;
+  background:
+    #F8D6DD
+    radial-gradient(#F8D6DD 0%, #F8D6DD 50%, #D994A2 90%);
+  min-height: 100vh;
+  color: white;
+}
+
+.landing-page-a {
+  display: block;
+  max-width: 100%;
+  max-height: 70vh;
+  position: relative;
+
+  > img {
+    position: relative;
+    max-height: 50vh;
+    max-width: 45vw;
+    width: auto;
+    height: auto;
+  }
+}
+
+.landing-page-b {
+  display: block;
+  width: 100%;
+  padding: 0px;
+
+  h1 {
+    color: #9056B5;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 25px;
+    text-shadow:
+      0px 0px 10px #FFF,
+      0px 0px 10px #FFF;
+    margin: 0px;
+    padding: 1vh 0px;
+  }
+
+  p {
+    color: #000;
+    line-height: 25px;
+    margin: 0;
+    padding: 1vh 0px 2vh;
+  }
+
+}
+
+// ============================================================================
+// Desktop
+@media screen and (min-height: 700px) {
+
+  .landing-page-b {
+    h1 {
+      font-size: 50px;
+      line-height: 35px;
+    }
+  }
+
+}
+
+// ============================================================================
+// Desktop
+@media screen and (min-width: 960px) {
+
+  .landing-page {
+    // padding: 16% 8% 0%;
+    padding: 12vh 16vw;
+  }
+  
+  .landing-page-a {
+    float: left;
+    width: 40%;
+    max-height: initial;
+  
+    > img {
+      max-height: 75vh;
+      max-width: initial;
+      width: auto;
+      height: auto;
+    }
+  }
+  
+  .landing-page-b {
+    float: right;
+    width: 60%;
+
+    text-align: left;
+    padding-top: 20vh;
+    
+    h1 {
+      font-size: 80px;
+      line-height: 64px;
+      text-shadow:
+        0px 0px 10px #FFF,
+        0px 0px 10px #FFF;
+      margin: 5px 0px;
+      padding: 5px 0px;
+    }
+  
+    p {
+      font-size: 24px;
+      line-height: 40px;
+    }
+
+    input {
+      width: 300px;
+    }
+
+    .button,
+    button {
+      width: 300px;
+      margin: 8px 0;
+    }  
+  
+  
+  }
+  
+}
