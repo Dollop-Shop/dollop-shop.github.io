@@ -9,6 +9,14 @@
     radial-gradient(#F8D6DD 0%, #F8D6DD 50%, #D994A2 90%);
   min-height: 100vh;
   color: white;
+
+  .zombie-hand {
+    z-index: 20;
+    position: absolute;
+    top: 20vh;
+    right: 53vw;
+    width: 80vw;
+  }
 }
 
 .landing-page-a {
@@ -19,8 +27,8 @@
 
   > img {
     position: relative;
-    max-height: 38vh;
-    max-width: 45vw;
+    max-height: 40vh;
+    max-width: 48vw;
     width: auto;
     height: auto;
   }
@@ -32,6 +40,7 @@
   padding: 0px;
 
   h1 {
+    display: inline-block;
     color: #9056B5;
     font-weight: bold;
     font-size: 36px;
@@ -40,7 +49,7 @@
       0px 0px 10px #FFF,
       0px 0px 10px #FFF;
     margin: 0px;
-    padding: 1vh 0px;
+    padding: 3vh 0px 2vh;
   }
 
   p {
@@ -90,19 +99,26 @@
 
 }
 
+
 // ============================================================================
 // Desktop
 @media screen and (min-width: 960px) {
 
   .landing-page {
-    // padding: 16% 8% 0%;
     padding: 12vh 16vw;
+
+    .zombie-hand {
+      top: 16vh;
+      right: 65vw;
+      width: 700px;
+    }
   }
   
   .landing-page-a {
     float: left;
-    width: 40%;
+    width: 50%;
     max-height: initial;
+    text-align: right;
   
     > img {
       max-height: 75vh;
@@ -114,12 +130,13 @@
   
   .landing-page-b {
     float: right;
-    width: 60%;
+    width: 45%;
 
     text-align: left;
     padding-top: 20vh;
     
     h1 {
+      display: block;
       font-size: 80px;
       line-height: 64px;
       text-shadow:
