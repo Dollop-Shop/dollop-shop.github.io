@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "74d204ad26aacca0f3d55b59d6433883",
+    "revision": "4251811a06cfef0935f3b802e572548d",
     "url": "/index.html"
   },
   {
-    "revision": "26a693e5e3672a38820e",
-    "url": "/static/css/main.04bc012a.chunk.css"
+    "revision": "02d99d5e82253b3469e5",
+    "url": "/static/css/main.23e059b1.chunk.css"
   },
   {
-    "revision": "b4d4aa8fbef4820e2390",
-    "url": "/static/js/2.47346638.chunk.js"
+    "revision": "85a5ea642d09891489c3",
+    "url": "/static/js/2.9ea16133.chunk.js"
   },
   {
-    "revision": "26a693e5e3672a38820e",
-    "url": "/static/js/main.46ee796a.chunk.js"
+    "revision": "02d99d5e82253b3469e5",
+    "url": "/static/js/main.14bfc0f0.chunk.js"
   },
   {
     "revision": "92e4454e4fafc9359706",
@@ -30,5 +30,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b3b64b1aec676ed812d8d06a0484c9fb",
     "url": "/static/media/youtube.b3b64b1a.svg"
+  },
+  {
+    "revision": "b27d8b2452728b345f5adc4e4ce345d9",
+    "url": "/static/media/zombie-hand-web.b27d8b24.png"
   }
 ]);
